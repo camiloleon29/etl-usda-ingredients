@@ -5,8 +5,8 @@ import pandas as pd
 from retrieve_ingredients import retrieve_ingredients_from_df
 
 PROJECT_ABSOLUTE_PATH = '/Users/camilo.leon/Desktop/python/etl-usda-ingredients'
-OUTPUT_FOLDER_PATH = f'{PROJECT_ABSOLUTE_PATH}/data/output'
-INPUT_FOLDER_PATH = f'{PROJECT_ABSOLUTE_PATH}/data/input'
+OUTPUT_FOLDER_PATH = f'{PROJECT_ABSOLUTE_PATH}/part_1/data/output'
+INPUT_FOLDER_PATH = f'{PROJECT_ABSOLUTE_PATH}/part_1/data/input'
 
 
 def get_df_from_excel(path):
